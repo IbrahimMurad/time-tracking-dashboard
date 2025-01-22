@@ -175,6 +175,7 @@ button.timeframe-btn.active {
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
+  cursor: pointer;
 }
 
 .current {
@@ -254,6 +255,9 @@ button.timeframe-btn.active {
   .activities {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+.activity-info.hovered {
+  background-color: var(--neutral-desaturated-blue);
 }
 
 /*# sourceMappingURL=style.css.map */
